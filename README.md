@@ -19,6 +19,18 @@ This portfolio is built using the following technologies:
 - **SCSS:** As a CSS preprocessor for writing maintainable and scalable styles.
 - **Boxicons:** A collection of high-quality icons for enhancing the user interface.
 
+# 🚀 How to Use
+
+1. **Clone the repository**
+   ```bash
+
+   ```
+2. Open `index.html` in your web browser.
+
+or
+
+**[Click here]() to see this project on internet.**
+
 ## 📁 Project Structure
 
 The project structure is organized as follows:
