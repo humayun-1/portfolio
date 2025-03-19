@@ -8,6 +8,14 @@ Check out the live version of the website: [My-Personal-Portfolio](https://goura
 📹 **Demo Video**
 Watch the video walkthrough of the project to see it in action!
 
+
+https://github.com/user-attachments/assets/9a68ec62-7a12-475a-8e0b-2286d91be885
+
+
+
+https://github.com/user-attachments/assets/dd4cfcdc-f90b-4a43-9cb9-baaf73158411
+
+
 ## Technologies Used
 
 This portfolio is built using the following technologies:
