@@ -23,6 +23,7 @@ This portfolio is built using the following technologies:
 
 1. **Clone the repository**
    ```bash
+   git@github.com:GourangaDasSamrat/My-Personal-Portfolio.git
 
    ```
 2. Open `index.html` in your web browser.
