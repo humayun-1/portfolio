@@ -3,7 +3,7 @@
 Welcome to my personal portfolio website! This project showcases my skills, experience, and projects in a visually appealing and interactive way.
 
 🌟 **Live Demo**
-Check out the live version of the website: [()
+Check out the live version of the website: [My-Personal-Portfolio](https://gourangadas.netlify.app/)
 
 📹 **Demo Video**
 Watch the video walkthrough of the project to see it in action!
@@ -29,7 +29,7 @@ This portfolio is built using the following technologies:
 
 or
 
-**[Click here]() to see this project on internet.**
+**[Click here](https://gourangadas.netlify.app/) to see this project on internet.**
 
 ## 📁 Project Structure
 
