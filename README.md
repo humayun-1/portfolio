@@ -81,7 +81,7 @@ Gouranga Das Samrat
 - 📘 [Facebook](https://www.facebook.com/gourangadassamrat)
 - 🐦 [Twitter](https://x.com/gouranga_khulna)
 - 🎬 [YouTube Channel](https://www.youtube.com/@GourangaDasSamrat)
-- 💼 [LinkedIn](https://bd.linkedin.com/in/gouranga-das-samrat-330311294)
+- 💼 [LinkedIn](https://linkedin.com/in/gouranga-das-samrat)
 - 💻 [Code Pen](https://codepen.io/gouranga-das-samrat)
 - 🚀 [Leetcode](https://leetcode.com/u/cqq98g0hw0/)
 - 🐙 [Github](https://github.com/GourangaDasSamrat)
