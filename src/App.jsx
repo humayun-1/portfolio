@@ -1,14 +1,13 @@
 import {
+  About,
+  Contact,
+  Footer,
+  Hero,
   Loader,
   NavBar,
-  Sidebar,
-  Hero,
-  About,
-  TechStack,
   Projects,
-  Testimonials,
-  Footer,
-  Contact,
+  Sidebar,
+  TechStack,
 } from "./sections";
 
 const App = () => {
@@ -21,7 +20,6 @@ const App = () => {
       <About />
       <TechStack />
       <Projects />
-      <Testimonials />
       <Contact />
       <Footer />
     </div>

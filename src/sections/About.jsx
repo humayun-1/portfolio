@@ -1,10 +1,10 @@
-import { Canvas } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
+import { Canvas } from "@react-three/fiber";
 
-import TitleHeader from "../components/TitleHeader";
 import GradientSpheres from "../components/GradientSpheres";
-import { bentoSocialLinks } from "../constants";
 import { Alien } from "../components/models/Alien";
+import TitleHeader from "../components/TitleHeader";
+import { bentoSocialLinks } from "../constants";
 
 const About = () => {
   return (
@@ -33,7 +33,7 @@ const About = () => {
                 </div>
                 <div className="mt-5">
                   <h1 className="text-blue-50 md:text-5xl text-3xl">
-                    David JhonSan
+                    GOURANGA DAS SAMRAT
                   </h1>
                   <p className="md:text-2xl mt-2">
                     I am a San francisco-based product designer with a focus on
