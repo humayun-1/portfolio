@@ -20,17 +20,17 @@ const navItems = [
 const bentoSocialLinks = [
   {
     name: "Facebook",
-    href: "https://www.facebook.com/",
+    href: "https://www.facebook.com/gourangadassamrat/",
     icon: "/images/fb.svg",
   },
   {
     name: "Instagram",
-    href: "https://www.facebook.com/",
+    href: "https://www.instagram.com/gouranga.das.khulna/",
     icon: "/images/insta.svg",
   },
   {
     name: "LinkedIn",
-    href: "https://www.facebook.com/",
+    href: "https://www.linkedin.com/in/gouranga-das-samrat/",
     icon: "/images/linkedin.svg",
   },
   {
@@ -126,17 +126,17 @@ const slides = [
 const footerIconsList = [
   {
     name: "Facebook",
-    href: "https://www.facebook.com/",
+    href: "https://www.facebook.com/gourangadassamrat/",
     icon: "/images/b-fb.svg",
   },
   {
     name: "Instagram",
-    href: "https://www.facebook.com/",
+    href: "https://www.instagram.com/gouranga.das.khulna/",
     icon: "/images/b-insta.svg",
   },
   {
     name: "LinkedIn",
-    href: "https://www.facebook.com/",
+    href: "https://www.linkedin.com/in/gouranga-das-samrat/",
     icon: "/images/b-linked.svg",
   },
   {

@@ -36,10 +36,13 @@ const About = () => {
                     GOURANGA DAS SAMRAT
                   </h1>
                   <p className="md:text-2xl mt-2">
-                    I am a San francisco-based product designer with a focus on
-                    web design, illustration, a visual development. I have a
-                    diverse range of experience having worked across various
-                    fields and industries.
+                    I am a Bangladesh-based Frontend Web Developer ?, primarily
+                    focusing on web design and development. I love learning new
+                    things and bringing ideas to life through code. I have
+                    worked on various projects, gaining experience with HTML,
+                    CSS, JavaScript, Bootstrap 5, and diving into React JS. My
+                    goal is always to build user-friendly and visually appealing
+                    websites.
                   </p>
                 </div>
               </div>
