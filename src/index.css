@@ -231,25 +231,7 @@ section {
       rgba(11, 6, 32, 0) 100%
     );
   }
-  /* testimonial */
-  .testimonial-gradient-sphere {
-    position: absolute;
-    width: 500px;
-    height: 500px;
-    border-radius: 50%;
-    filter: blur(150px);
-  }
-  .testimonial-sphere-1 {
-    background: radial-gradient(circle, #ff28d5, #ff28d5);
-    bottom: 300px;
-    right: 100px;
-  }
-  .testimonial-sphere-2 {
-    background: radial-gradient(circle, #1c34ff, #1c34ff);
-    bottom: 100px;
-    right: 0px;
-    animation: wander-right 16s ease-in-out infinite;
-  }
+  
   /* nav-side-bar */
   .side-bar-bg {
     border-bottom: 1px solid rgba(255, 255, 255, 0.01);
