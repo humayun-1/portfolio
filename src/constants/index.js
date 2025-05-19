@@ -86,42 +86,40 @@ const iconsList = [
 const slides = [
   {
     id: 1,
-    title: "Sofi",
+    title: "iBlog",
     img: "/images/p1.png",
   },
   {
     id: 2,
-    title: "Jasmina",
+    title: "E-commerce Website",
     img: "/images/p2.png",
   },
   {
     id: 3,
-    title: "d.tampe",
+    title: "Daraz Clone",
     img: "/images/p3.png",
   },
   {
     id: 4,
-    title: "Blimp.gr",
+    title: "Quiz App",
     img: "/images/p4.png",
   },
   {
     id: 5,
-    title: "Hawk Style Design",
+    title: "Text Editor",
     img: "/images/p5.png",
   },
   {
     id: 6,
-    title: "Lewis",
+    title: "Code Editor",
     img: "/images/p6.png",
   },
   {
     id: 7,
-    title: "Sofi",
-    img: "/images/p1.png",
+    title: "Python Compiler",
+    img: "/images/p7.png",
   },
 ];
-
-
 
 const footerIconsList = [
   {
@@ -146,10 +144,4 @@ const footerIconsList = [
   },
 ];
 
-export {
-  navItems,
-  bentoSocialLinks,
-  iconsList,
-  slides,
-  footerIconsList,
-};
+export { bentoSocialLinks, footerIconsList, iconsList, navItems, slides };
