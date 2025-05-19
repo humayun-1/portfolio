@@ -1,4 +1,4 @@
 User-agent: *
-Allow:
+Allow: /
 
-Sitemap: Starting URL: https://gourangadas.netlify.app//sitemap.xml
+Sitemap: https://gourangadas.netlify.app/sitemap.xml
