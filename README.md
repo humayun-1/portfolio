@@ -10,7 +10,8 @@ Hey ! I've poured my heart and soul into building this 3D Developer Portfolio pr
 
 Need a quick look? Check out the demo video below to see this 3D portfolio in action! 👇
 
-[![](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](YOUR_YOUTUBE_VIDEO_LINK_HERE) ---
+[![Watch the video](https://img.youtube.com/vi/d9xWeuUohDo/maxresdefault.jpg)](https://youtu.be/d9xWeuUohDo)
+
 
 ## ✨ Features
 
