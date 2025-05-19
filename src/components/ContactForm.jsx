@@ -1,8 +1,9 @@
+import emailjs from "@emailjs/browser";
 import { zodResolver } from "@hookform/resolvers/zod";
+import { useState } from "react";
+import ReCAPTCHA from "react-google-recaptcha";
 import { useForm } from "react-hook-form";
 import * as Z from "zod";
-import emailjs from "@emailjs/browser";
-import { useState } from "react";
 
 const contactFormSchema = Z.object({
   name: Z.string().nonempty("Name is required"),
@@ -20,6 +21,8 @@ const initialValues = {
 
 const ContactForm = () => {
   const [loading, setLoading] = useState(false);
+  const [recaptchaValue, setRecaptchaValue] = useState(null);
+  const [recaptchaError, setRecaptchaError] = useState("");
   const {
     register,
     handleSubmit,
@@ -31,6 +34,11 @@ const ContactForm = () => {
   });
 
   const onSubmit = async (data) => {
+    if (!recaptchaValue) {
+      setRecaptchaError("Please verify that you are not a robot.");
+      return;
+    }
+    setRecaptchaError("");
     setLoading(true);
     try {
       const payload = {
@@ -139,6 +147,18 @@ const ContactForm = () => {
             <span className="text-red-500">{errors.message.message}</span>
           )}
         </div>
+
+        <ReCAPTCHA
+          sitekey={import.meta.env.VITE_RECAPTCHA_SITE_KEY}
+          onChange={(value) => {
+            setRecaptchaValue(value);
+            setRecaptchaError("");
+          }}
+          className="self-center"
+        />
+        {recaptchaError && (
+          <span className="text-red-500 text-sm">{recaptchaError}</span>
+        )}
 
         <button
           type="submit"
