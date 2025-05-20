@@ -12,6 +12,7 @@ Need a quick look? Check out the demo video below to see this 3D portfolio in ac
 
 [![Watch the video](https://img.youtube.com/vi/d9xWeuUohDo/maxresdefault.jpg)](https://youtu.be/d9xWeuUohDo)
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e2590417-55c8-4866-b686-8cf34e7f706e/deploy-status)](https://app.netlify.com/projects/gourangadas/deploys)
 
 ## ✨ Features
 
