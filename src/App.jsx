@@ -1,4 +1,6 @@
 import { Helmet } from "react-helmet";
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import NotFound from "./components/NotFound";
 import {
   About,
   Contact,
@@ -11,50 +13,46 @@ import {
   TechStack,
 } from "./sections";
 
-const App = () => {
-  return (
-    <div className="bg-black-100">
-      <Helmet>
-        <meta
-          name="description"
-          content="Highly motivated & passionate Frontend Web Developer specializing in modern, responsive web apps with HTML, CSS, JavaScript, and React JS. Explore my work and skills here."
-        />
-        <meta
-          name="keywords"
-          content="Gouranga Das Samrat, Frontend Developer, Web Developer, React JS, JavaScript ES6, HTML, CSS, Bootstrap 5, Responsive Web Design, UI Development, Web Development Portfolio, Junior Frontend Developer, Bangladesh Developer, Khulna, Modern Web Development, Single Page Application"
-        />
-        <link rel="canonical" href="https://gourangadas.netlify.app/" />
-        <meta name="theme-color" content="#000000" />
-        <meta
-          property="og:title"
-          content="Gouranga Das Samrat | Frontend Web Developer Portfolio"
-        />
-        <meta
-          property="og:description"
-          content="Highly motivated and passionate Frontend Web Developer specializing in modern web applications with HTML, CSS, JavaScript, and React JS. Explore my work here."
-        />
-        <meta property="og:image" content="https://ibb.co/G6ZjmRf" />
-        <meta property="og:url" content="https://gourangadas.netlify.app/" />
-        <meta property="og:type" content="website" />
-        <meta
-          property="og:site_name"
-          content="Gouranga Das Samrat - Portfolio"
-        />
-        <meta property="og:locale" content="en_US" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="Gouranga Das Samrat | Frontend Web Developer"
-        />
-        <meta
-          name="twitter:description"
-          content="Highly motivated and passionate Frontend Web Developer specializing in modern web applications with HTML, CSS, JavaScript, and React JS. Explore my work here."
-        />
-        <meta name="twitter:image" content="https://ibb.co/G6ZjmRf" />
-        <meta name="twitter:site" content="@gouranga_khulna" />{" "}
-        <meta name="twitter:creator" content="@gouranga_khulna" />{" "}
-        <script type="application/ld+json">
-          {`
+const MainContent = () => (
+  <>
+    <Helmet>
+      <meta
+        name="description"
+        content="Highly motivated & passionate Frontend Web Developer specializing in modern, responsive web apps with HTML, CSS, JavaScript, and React JS. Explore my work and skills here."
+      />
+      <meta
+        name="keywords"
+        content="Gouranga Das Samrat, Frontend Developer, Web Developer, React JS, JavaScript ES6, HTML, CSS, Bootstrap 5, Responsive Web Design, UI Development, Web Development Portfolio, Junior Frontend Developer, Bangladesh Developer, Khulna, Modern Web Development, Single Page Application"
+      />
+      <link rel="canonical" href="https://gourangadas.netlify.app/" />
+      <meta name="theme-color" content="#000000" />
+      <meta
+        property="og:title"
+        content="Gouranga Das Samrat | Frontend Web Developer Portfolio"
+      />
+      <meta
+        property="og:description"
+        content="Highly motivated and passionate Frontend Web Developer specializing in modern web applications with HTML, CSS, JavaScript, and React JS. Explore my work here."
+      />
+      <meta property="og:image" content="https://ibb.co/G6ZjmRf" />
+      <meta property="og:url" content="https://gourangadas.netlify.app/" />
+      <meta property="og:type" content="website" />
+      <meta property="og:site_name" content="Gouranga Das Samrat - Portfolio" />
+      <meta property="og:locale" content="en_US" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta
+        name="twitter:title"
+        content="Gouranga Das Samrat | Frontend Web Developer"
+      />
+      <meta
+        name="twitter:description"
+        content="Highly motivated and passionate Frontend Web Developer specializing in modern web applications with HTML, CSS, JavaScript, and React JS. Explore my work here."
+      />
+      <meta name="twitter:image" content="https://ibb.co/G6ZjmRf" />
+      <meta name="twitter:site" content="@gouranga_khulna" />{" "}
+      <meta name="twitter:creator" content="@gouranga_khulna" />{" "}
+      <script type="application/ld+json">
+        {`
     {
       "@context": "https://schema.org",
       "@type": "Person",
@@ -103,19 +101,30 @@ const App = () => {
       "birthDate": "2008-10-05"
     }
   `}
-        </script>
-      </Helmet>
+      </script>
+    </Helmet>
+    <NavBar />
+    <Loader />
+    <Sidebar />
+    <Hero />
+    <About />
+    <TechStack />
+    <Projects />
+    <Contact />
+    <Footer />
+  </>
+);
 
-      <Loader />
-      <NavBar />
-      <Sidebar />
-      <Hero />
-      <About />
-      <TechStack />
-      <Projects />
-      <Contact />
-      <Footer />
-    </div>
+const App = () => {
+  return (
+    <Router>
+      <div className="bg-black-100">
+        <Routes>
+          <Route path="/" element={<MainContent />} />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+      </div>
+    </Router>
   );
 };
 
