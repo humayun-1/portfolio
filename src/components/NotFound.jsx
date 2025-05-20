@@ -5,6 +5,7 @@ const NotFound = () => {
   return (
     <div className="min-h-screen bg-black-100 flex items-center justify-center px-4">
       <Helmet>
+        <link rel="icon" type="image/x-icon" href="/src/assets/favicon.ico" />
         <title>404 - Page Not Found | Gouranga Das Samrat</title>
         <meta
           name="description"
