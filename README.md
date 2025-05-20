@@ -4,7 +4,7 @@
 Hey ! I've poured my heart and soul into building this 3D Developer Portfolio project. My goal was to create something that truly stands out, something with stunning visuals and cool interactive 3D stuff that grabs attention right away. I think it's perfect for anyone who's into frontend development, design, or just loves creative coding and wants to show off their skills in a unique way. Hope you like it! 😊
 </p>
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Check%20it%20out%21-%23FF0000?style=for-the-badge)](https://gouranga.das.khulna@gmail.com)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Check%20it%20out%21-%23FF0000?style=for-the-badge)](https://gourangadas.netlify.app)
 
 ## ▶️ Demo Video
 
