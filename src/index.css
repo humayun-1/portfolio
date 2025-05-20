@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+html {
+  scroll-behavior: smooth;
+}
+
 @layer base {
   @font-face {
     font-family: "aeonik";
@@ -46,7 +50,6 @@ body {
   overflow-x: hidden;
   background-color: #0b0620;
   color: #a7a7a7;
-  scroll-behavior: smooth;
 }
 
 section {
@@ -231,7 +234,7 @@ section {
       rgba(11, 6, 32, 0) 100%
     );
   }
-  
+
   /* nav-side-bar */
   .side-bar-bg {
     border-bottom: 1px solid rgba(255, 255, 255, 0.01);
