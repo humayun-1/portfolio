@@ -8,7 +8,6 @@
 
 A modern, interactive personal portfolio website built with React, Three.js, and Vite. Features 3D models, animations, and a responsive design.
 
-![Portfolio Preview](public/images/p1.png)
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-Check%20it%20out%21-%23FF0000?style=for-the-badge)](https://gourangadas.netlify.app)
 
