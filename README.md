@@ -1,8 +1,14 @@
-# 🚀 3D Developer Portfolio ✨
+# My Personal Portfolio 🚀
 
-<p align="center">
-Hey ! I've poured my heart and soul into building this 3D Developer Portfolio project. My goal was to create something that truly stands out, something with stunning visuals and cool interactive 3D stuff that grabs attention right away. I think it's perfect for anyone who's into frontend development, design, or just loves creative coding and wants to show off their skills in a unique way. Hope you like it! 😊
-</p>
+[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
+[![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)](https://vitejs.dev/)
+[![Three.js](https://img.shields.io/badge/ThreeJs-black?style=for-the-badge&logo=three.js&logoColor=white)](https://threejs.org/)
+[![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
+
+A modern, interactive personal portfolio website built with React, Three.js, and Vite. Features 3D models, animations, and a responsive design.
+
+![Portfolio Preview](public/images/p1.png)
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-Check%20it%20out%21-%23FF0000?style=for-the-badge)](https://gourangadas.netlify.app)
 
@@ -81,6 +87,31 @@ Ready to get this project up and running on your local machine? Just follow thes
     ```
 
 5.  Open your browser and visit `http://localhost:5173` (or whatever address the console provides) to see the portfolio! ✨
+
+## 🔐 Environment Variables
+
+Before running the project, you'll need to set up your environment variables. Create a `.env` file in the root directory:
+
+```bash
+cp .env.example .env
+```
+
+Then fill in the values in your `.env` file:
+
+- `VITE_APP_TITLE`: Your portfolio title
+- `VITE_APP_DESCRIPTION`: Brief description of your portfolio
+- `EMAIL_SERVICE`: Email service provider (e.g., Gmail)
+- `EMAIL_USERNAME`: Your email address
+- `EMAIL_PASSWORD`: Your app-specific password
+- `VITE_EMAIL_JS_SERVICE_ID`: EmailJS service ID
+- `VITE_EMAIL_JS_TEMPLATE_ID`: EmailJS template ID
+- `VITE_EMAIL_JS_PUBLIC_KEY`: EmailJS public key
+- `VITE_GA_TRACKING_ID`: Google Analytics tracking ID (optional)
+- `VITE_SITE_URL`: Your site's URL
+- `VITE_GITHUB_URL`: Your GitHub profile URL
+- `VITE_LINKEDIN_URL`: Your LinkedIn profile URL
+
+See `.env.example` for all available options and their descriptions.
 
 ---
 
