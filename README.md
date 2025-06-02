@@ -1,15 +1,21 @@
-# My Personal Portfolio 🚀
+# 🌟 Modern 3D Portfolio
+
+<div align="center">
 
 [![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
-[![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)](https://vitejs.dev/)
+[![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
 [![Three.js](https://img.shields.io/badge/ThreeJs-black?style=for-the-badge&logo=three.js&logoColor=white)](https://threejs.org/)
 [![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-View%20Portfolio-%23FF0000?style=for-the-badge)](https://gourangadas.netlify.app)
 
-A modern, interactive personal portfolio website built with React, Three.js, and Vite. Features 3D models, animations, and a responsive design.
+<p align="center">
+Welcome to my innovative portfolio—where creativity meets technology. Built with React, Three.js, and Vite, this showcase features stunning 3D models, fluid animations, and a fully responsive design that creates an immersive viewing experience.
+</p>
 
+[View Live Demo](https://gourangadas.netlify.app) • [Watch Demo Video](https://youtu.be/d9xWeuUohDo) • [Report Bug](https://github.com/GourangaDasSamrat/My-Personal-Portfolio/issues) • [Request Feature](https://github.com/GourangaDasSamrat/My-Personal-Portfolio/issues)
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Check%20it%20out%21-%23FF0000?style=for-the-badge)](https://gourangadas.netlify.app)
+</div>
 
 ## ▶️ Demo Video
 
@@ -19,30 +25,35 @@ Need a quick look? Check out the demo video below to see this 3D portfolio in ac
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/e2590417-55c8-4866-b686-8cf34e7f706e/deploy-status)](https://app.netlify.com/projects/gourangadas/deploys)
 
-## ✨ Features
+## ✨ Key Features
 
-Here are some of the cool things you'll find in this 3D portfolio project:
+<div align="center">
 
-- 🎥 **Hero Section Awesomeness:** It's got a motion-triggered 3D avatar that reacts as you scroll or move your mouse! How cool is that? 😎
-- 👨‍💻 **Interactive About Section:** My 'About Me' section isn't just text! It features an interactive 3D model to make things more engaging.
-- 📁 **Project Showcase:** I've built a custom animated slider to showcase my projects. No more boring static lists! 🔄
-- 🚀 **Marquee & Shiny Tech Stack:** The technologies I've used are displayed with a smooth marquee animation 🚀 and a neat hover shiny effect ✨ to make them pop!
-- ✍️ **Smooth Testimonials:** Testimonials section with a slick Tailwind CSS smooth animated hover effect. Looks really clean! ✨
-- 📨 **Validation Ready Contact Form:** You can receive messages directly! It's got form validation built-in using React Hook Form and Zod, and it uses Email.js so you don't even need a backend for it. Super convenient! ✅
+| Feature                   | Description                                                            |
+| ------------------------- | ---------------------------------------------------------------------- |
+| 🎥 **Interactive Hero**   | Motion-triggered 3D avatar that responds to scroll and mouse movements |
+| 👨‍💻 **Dynamic About**      | Interactive 3D model integration for enhanced user engagement          |
+| 📁 **Project Gallery**    | Custom-built animated slider for portfolio showcase                    |
+| 🚀 **Tech Stack Display** | Smooth marquee animation with elegant hover effects                    |
+| ✍️ **Testimonials**       | Tailwind CSS-powered smooth transitions and hover animations           |
+| 📨 **Smart Contact**      | React Hook Form + Zod validation with Email.js integration             |
 
----
+</div>
 
-## 🛠️ Technologies Used
+## 🛠️ Technology Stack
 
-This project was built using some awesome technologies. Here's the stack:
+<div align="center">
 
-- ⚛️ **React 19:** For building the user interface.
-- 🌀 **Tailwind CSS v4:** For super fast and utility-first styling.
-- 🎮 **Three.js + React Three Fiber:** To bring those amazing 3D graphics to life in React.
-- 🎞️ **GSAP:** For powerful and smooth animations.
-- 📩 **Email.js:** To handle contact form submissions without a backend.
-- ✅ **React Hook Form + Zod:** For robust form validation.
-- 🪖 **React Helmet:** To manage document head tags easily.
+| Category               | Technologies                                                                                                                                                                                                                            |
+| ---------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Frontend Framework** | ![React](https://img.shields.io/badge/React_19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)                                                                                                                                  |
+| **Styling**            | ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS_v4-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)                                                                                                              |
+| **3D Graphics**        | ![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=three.js&logoColor=white) ![React Three Fiber](https://img.shields.io/badge/React_Three_Fiber-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) |
+| **Animation**          | ![GSAP](https://img.shields.io/badge/GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=white)                                                                                                                                    |
+| **Form Handling**      | ![React Hook Form](https://img.shields.io/badge/React_Hook_Form-EC5990?style=for-the-badge&logo=react&logoColor=white)                                                                                                                  |
+| **Build Tool**         | ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)                                                                                                                                         |
+
+</div>
 
 <p align="center">
     <img src="https://img.shields.io/badge/-React_JS_V19-black?style=for-the-badge&logoColor=white&logo=react&color=007ACC" alt="React JS Badge" />
@@ -87,21 +98,43 @@ Ready to get this project up and running on your local machine? Just follow thes
 
 5.  Open your browser and visit `http://localhost:5173` (or whatever address the console provides) to see the portfolio! ✨
 
-## 🔐 Environment Variables
-
-Before running the project, you'll need to set up your environment variables. Create a `.env` file in the root directory:
+## 📂 Project Structure
 
 ```bash
-cp .env.example .env
+my-personal-portfolio/
+├── public/                 # Static assets
+│   ├── fonts/             # Custom fonts
+│   ├── images/            # Image assets
+│   └── models/            # 3D model files (.glb, .fbx)
+├── src/
+│   ├── assets/            # Project assets
+│   ├── components/        # Reusable components
+│   │   └── models/       # 3D model components
+│   ├── constants/         # Constants and configuration
+│   ├── sections/          # Main page sections
+│   ├── App.jsx           # Root component
+│   └── main.jsx          # Entry point
+├── .env                   # Environment variables
+├── vite.config.js         # Vite configuration
+└── package.json           # Project dependencies
 ```
 
-Then fill in the values in your `.env` file:
+## 🔐 Environment Variables
 
--`VITE_EMAIL_PUBLIC_KEY`= Your Email Js public key.
--`VITE_EMAIL_SERVICE_ID`= Your Email Js service id
--`VITE_EMAIL_TEMPLATE_ID`= Your Email Js template id
--`VITE_RECAPTCHA_SITE_KEY`= Your Google ReCaprcha v2 ( that i used in this project) or v3 publik key.
+Before running the project, set up your environment variables:
 
+1. Create a `.env` file in the root directory:
+
+   ```bash
+   cp .env.example .env
+   ```
+
+2. Configure the following variables:
+   ```env
+   VITE_EMAIL_PUBLIC_KEY=your_emailjs_public_key
+   VITE_EMAIL_SERVICE_ID=your_emailjs_service_id
+   ```
+   -`VITE_EMAIL_TEMPLATE_ID`= Your Email Js template id -`VITE_RECAPTCHA_SITE_KEY`= Your Google ReCaprcha v2 ( that i used in this project) or v3 publik key.
 
 See `.env.example` for all available options and their descriptions.
 
