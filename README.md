@@ -97,18 +97,11 @@ cp .env.example .env
 
 Then fill in the values in your `.env` file:
 
-- `VITE_APP_TITLE`: Your portfolio title
-- `VITE_APP_DESCRIPTION`: Brief description of your portfolio
-- `EMAIL_SERVICE`: Email service provider (e.g., Gmail)
-- `EMAIL_USERNAME`: Your email address
-- `EMAIL_PASSWORD`: Your app-specific password
-- `VITE_EMAIL_JS_SERVICE_ID`: EmailJS service ID
-- `VITE_EMAIL_JS_TEMPLATE_ID`: EmailJS template ID
-- `VITE_EMAIL_JS_PUBLIC_KEY`: EmailJS public key
-- `VITE_GA_TRACKING_ID`: Google Analytics tracking ID (optional)
-- `VITE_SITE_URL`: Your site's URL
-- `VITE_GITHUB_URL`: Your GitHub profile URL
-- `VITE_LINKEDIN_URL`: Your LinkedIn profile URL
+-`VITE_EMAIL_PUBLIC_KEY`= Your Email Js public key.
+-`VITE_EMAIL_SERVICE_ID`= Your Email Js service id
+-`VITE_EMAIL_TEMPLATE_ID`= Your Email Js template id
+-`VITE_RECAPTCHA_SITE_KEY`= Your Google ReCaprcha v2 ( that i used in this project) or v3 publik key.
+
 
 See `.env.example` for all available options and their descriptions.
 
