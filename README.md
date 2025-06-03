@@ -143,10 +143,54 @@ Ready to get this project up and running on your local machine? Follow these sim
 
 <div align="center">
 
-[![Performance](https://img.shields.io/badge/Performance-98%25-success?style=for-the-badge&logo=lighthouse&logoColor=white)](https://web.dev/measure/)
-[![Accessibility](https://img.shields.io/badge/Accessibility-100%25-success?style=for-the-badge&logo=lighthouse&logoColor=white)](https://web.dev/measure/)
-[![Best Practices](https://img.shields.io/badge/Best%20Practices-100%25-success?style=for-the-badge&logo=lighthouse&logoColor=white)](https://web.dev/measure/)
-[![SEO](https://img.shields.io/badge/SEO-100%25-success?style=for-the-badge&logo=lighthouse&logoColor=white)](https://web.dev/measure/)
+<a href="https://pagespeed.web.dev/analysis/https-gourangadas-netlify-app/7j6ggjnat4?form_factor=desktop">
+  <img src="https://img.shields.io/badge/Performance-98-success?style=for-the-badge&logo=lighthouse&logoColor=white" alt="Performance: 98%" />
+  <img src="https://img.shields.io/badge/Accessibility-100-success?style=for-the-badge&logo=lighthouse&logoColor=white" alt="Accessibility: 100%" />
+  <img src="https://img.shields.io/badge/Best%20Practices-100-success?style=for-the-badge&logo=lighthouse&logoColor=white" alt="Best Practices: 100%" />
+  <img src="https://img.shields.io/badge/SEO-100-success?style=for-the-badge&logo=lighthouse&logoColor=white" alt="SEO: 100%" />
+</a>
+
+### 📱 PageSpeed Insights
+
+<table>
+  <tr>
+    <td>
+      <a href="https://pagespeed.web.dev/analysis/https-gourangadas-netlify-app/7j6ggjnat4?form_factor=desktop">
+        <img src="https://img.shields.io/badge/Desktop-98%2F100-success?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Desktop Score" />
+      </a>
+    </td>
+    <td>
+      <a href="https://pagespeed.web.dev/analysis/https-gourangadas-netlify-app/7j6ggjnat4?form_factor=mobile">
+        <img src="https://img.shields.io/badge/Mobile-95%2F100-success?style=for-the-badge&logo=android&logoColor=white" alt="Mobile Score" />
+      </a>
+    </td>
+  </tr>
+</table>
+
+<details>
+<summary>📊 View Detailed PageSpeed Report</summary>
+
+### Desktop Performance
+
+| Metric                   | Score | Value |
+| :----------------------- | :---: | :---- |
+| First Contentful Paint   |  🟢   | 0.9s  |
+| Largest Contentful Paint |  🟢   | 1.2s  |
+| Total Blocking Time      |  🟢   | 0ms   |
+| Cumulative Layout Shift  |  🟢   | 0.001 |
+| Speed Index              |  🟢   | 1.1s  |
+
+### Mobile Performance
+
+| Metric                   | Score | Value |
+| :----------------------- | :---: | :---- |
+| First Contentful Paint   |  🟢   | 1.8s  |
+| Largest Contentful Paint |  🟢   | 2.1s  |
+| Total Blocking Time      |  🟢   | 110ms |
+| Cumulative Layout Shift  |  🟢   | 0.002 |
+| Speed Index              |  🟢   | 2.0s  |
+
+</details>
 
 <br/>
 
