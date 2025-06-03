@@ -139,18 +139,44 @@ Ready to get this project up and running on your local machine? Follow these sim
 
 ## 📊 Performance
 
-### Lighthouse Report
+### 🎯 Lighthouse Score
 
 <div align="center">
 
+[![Performance](https://img.shields.io/badge/Performance-98%25-success?style=for-the-badge&logo=lighthouse&logoColor=white)](https://web.dev/measure/)
+[![Accessibility](https://img.shields.io/badge/Accessibility-100%25-success?style=for-the-badge&logo=lighthouse&logoColor=white)](https://web.dev/measure/)
+[![Best Practices](https://img.shields.io/badge/Best%20Practices-100%25-success?style=for-the-badge&logo=lighthouse&logoColor=white)](https://web.dev/measure/)
+[![SEO](https://img.shields.io/badge/SEO-100%25-success?style=for-the-badge&logo=lighthouse&logoColor=white)](https://web.dev/measure/)
+
+<br/>
+
+<details>
+<summary>📈 View Detailed Report</summary>
+
+<br/>
+
+| Category              |                                  Score                                   | Metrics                               |
+| :-------------------- | :----------------------------------------------------------------------: | :------------------------------------ |
+| 🚀 **Performance**    |  ![98%](https://progress-bar.dev/98?title=Score&width=120&color=42b883)  | FCP: 1.2s, TTI: 2.1s, SI: 1.8s        |
+| ♿ **Accessibility**  | ![100%](https://progress-bar.dev/100?title=Score&width=120&color=31c754) | ARIA, Labels, Contrast                |
+| 🛠️ **Best Practices** | ![100%](https://progress-bar.dev/100?title=Score&width=120&color=31c754) | HTTPS, Console, Vulnerabilities       |
+| 🔍 **SEO**            | ![100%](https://progress-bar.dev/100?title=Score&width=120&color=31c754) | Meta Tags, Crawlable, Mobile Friendly |
+
 ![Lighthouse Report](https://raw.githubusercontent.com/GourangaDasSamrat/My-Personal-Portfolio/main/public/images/lighthouse-report.png)
 
-| Metric            | Score   |
-| ----------------- | ------- |
-| 🚀 Performance    | 98/100  |
-| ♿ Accessibility  | 100/100 |
-| 🛠️ Best Practices | 100/100 |
-| 🔍 SEO            | 100/100 |
+</details>
+
+</div>
+
+<div align="center">
+
+### 🎨 Core Web Vitals
+
+[![LCP](https://img.shields.io/badge/LCP-1.2s-success?style=flat-square&logo=google-chrome&logoColor=white)](https://web.dev/lcp/)
+[![FID](https://img.shields.io/badge/FID-2.3ms-success?style=flat-square&logo=google-chrome&logoColor=white)](https://web.dev/fid/)
+[![CLS](https://img.shields.io/badge/CLS-0.05-success?style=flat-square&logo=google-chrome&logoColor=white)](https://web.dev/cls/)
+[![FCP](https://img.shields.io/badge/FCP-1.2s-success?style=flat-square&logo=google-chrome&logoColor=white)](https://web.dev/fcp/)
+[![TTI](https://img.shields.io/badge/TTI-2.1s-success?style=flat-square&logo=google-chrome&logoColor=white)](https://web.dev/tti/)
 
 </div>
 
