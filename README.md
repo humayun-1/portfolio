@@ -143,25 +143,41 @@ Ready to get this project up and running on your local machine? Follow these sim
 
 <div align="center">
 
-<a href="https://pagespeed.web.dev/analysis/https-gourangadas-netlify-app/7j6ggjnat4?form_factor=desktop">
-  <img src="https://img.shields.io/badge/Performance-98-success?style=for-the-badge&logo=lighthouse&logoColor=white" alt="Performance: 98%" />
-  <img src="https://img.shields.io/badge/Accessibility-100-success?style=for-the-badge&logo=lighthouse&logoColor=white" alt="Accessibility: 100%" />
-  <img src="https://img.shields.io/badge/Best%20Practices-100-success?style=for-the-badge&logo=lighthouse&logoColor=white" alt="Best Practices: 100%" />
-  <img src="https://img.shields.io/badge/SEO-100-success?style=for-the-badge&logo=lighthouse&logoColor=white" alt="SEO: 100%" />
+<a href="https://pagespeed.web.dev/analysis/https-gourangadas-netlify-app/xsjbikyooz?form_factor=mobile">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Performance-98-success?style=for-the-badge&logo=lighthouse&logoColor=white&color=00C853">
+    <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/Performance-98-success?style=for-the-badge&logo=lighthouse&logoColor=white&color=00C853">
+    <img alt="Performance Score" src="https://img.shields.io/badge/Performance-98-success?style=for-the-badge&logo=lighthouse&logoColor=white&color=00C853">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Accessibility-100-success?style=for-the-badge&logo=lighthouse&logoColor=white&color=00C853">
+    <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/Accessibility-100-success?style=for-the-badge&logo=lighthouse&logoColor=white&color=00C853">
+    <img alt="Accessibility Score" src="https://img.shields.io/badge/Accessibility-100-success?style=for-the-badge&logo=lighthouse&logoColor=white&color=00C853">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Best%20Practices-100-success?style=for-the-badge&logo=lighthouse&logoColor=white&color=00C853">
+    <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/Best%20Practices-100-success?style=for-the-badge&logo=lighthouse&logoColor=white&color=00C853">
+    <img alt="Best Practices Score" src="https://img.shields.io/badge/Best%20Practices-100-success?style=for-the-badge&logo=lighthouse&logoColor=white&color=00C853">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/SEO-100-success?style=for-the-badge&logo=lighthouse&logoColor=white&color=00C853">
+    <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/SEO-100-success?style=for-the-badge&logo=lighthouse&logoColor=white&color=00C853">
+    <img alt="SEO Score" src="https://img.shields.io/badge/SEO-100-success?style=for-the-badge&logo=lighthouse&logoColor=white&color=00C853">
+  </picture>
 </a>
 
 ### 📱 PageSpeed Insights
 
 <table>
   <tr>
-    <td>
-      <a href="https://pagespeed.web.dev/analysis/https-gourangadas-netlify-app/7j6ggjnat4?form_factor=desktop">
-        <img src="https://img.shields.io/badge/Desktop-98%2F100-success?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Desktop Score" />
+    <td align="center">
+      <a href="https://pagespeed.web.dev/analysis/https-gourangadas-netlify-app/xsjbikyooz?form_factor=desktop">
+        <img src="https://img.shields.io/badge/Desktop-98%2F100-success?style=for-the-badge&logo=googlechrome&logoColor=white&color=00C853" alt="Desktop Score" />
       </a>
     </td>
-    <td>
-      <a href="https://pagespeed.web.dev/analysis/https-gourangadas-netlify-app/7j6ggjnat4?form_factor=mobile">
-        <img src="https://img.shields.io/badge/Mobile-95%2F100-success?style=for-the-badge&logo=android&logoColor=white" alt="Mobile Score" />
+    <td align="center">
+      <a href="https://pagespeed.web.dev/analysis/https-gourangadas-netlify-app/xsjbikyooz?form_factor=mobile">
+        <img src="https://img.shields.io/badge/Mobile-95%2F100-success?style=for-the-badge&logo=android&logoColor=white&color=00C853" alt="Mobile Score" />
       </a>
     </td>
   </tr>
