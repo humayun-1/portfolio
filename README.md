@@ -9,6 +9,11 @@
 [![License](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-View%20Portfolio-%23FF0000?style=for-the-badge)](https://gourangadas.netlify.app)
 
+[![Website Status](https://img.shields.io/website?style=for-the-badge&url=https%3A%2F%2Fgourangadas.netlify.app)](https://gourangadas.netlify.app)
+[![GitHub stars](https://img.shields.io/github/stars/GourangaDasSamrat/My-Personal-Portfolio?style=for-the-badge)](https://github.com/GourangaDasSamrat/My-Personal-Portfolio/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/GourangaDasSamrat/My-Personal-Portfolio?style=for-the-badge)](https://github.com/GourangaDasSamrat/My-Personal-Portfolio/network)
+[![GitHub issues](https://img.shields.io/github/issues/GourangaDasSamrat/My-Personal-Portfolio?style=for-the-badge)](https://github.com/GourangaDasSamrat/My-Personal-Portfolio/issues)
+
 <p align="center">
 Welcome to my innovative portfolio—where creativity meets technology. Built with React, Three.js, and Vite, this showcase features stunning 3D models, fluid animations, and a fully responsive design that creates an immersive viewing experience.
 </p>
@@ -66,37 +71,106 @@ Need a quick look? Check out the demo video below to see this 3D portfolio in ac
 
 ## 🚀 Getting Started
 
-Ready to get this project up and running on your local machine? Just follow these simple steps, Sir!
+Ready to get this project up and running on your local machine? Follow these simple steps!
 
-1.  **Clone the repository:**
+### Prerequisites
 
-    ```bash
-    git clone https://github.com/GourangaDasSamrat/My-Personal-Portfolio.git
-    ```
+- Node.js 16.0 or higher
+- npm or yarn package manager
+- Git
 
-2.  **Navigate into the project directory:**
+### Installation
 
-    ```bash
-    cd My-Personal-Portfolio
-    ```
+1. **Clone the repository:**
 
-3.  **Install dependencies:**
+   ```bash
+   git clone https://github.com/GourangaDasSamrat/My-Personal-Portfolio.git
+   ```
 
-    ```bash
-    npm install
-    # Or if you prefer yarn:
-    # yarn
-    ```
+2. **Navigate into the project directory:**
 
-4.  **Start the development server:**
+   ```bash
+   cd My-Personal-Portfolio
+   ```
 
-    ```bash
-    npm run dev
-    # Or if you prefer yarn:
-    # yarn dev
-    ```
+3. **Install dependencies:**
 
-5.  Open your browser and visit `http://localhost:5173` (or whatever address the console provides) to see the portfolio! ✨
+   ```bash
+   npm install
+   # Or if you prefer yarn:
+   yarn
+   ```
+
+4. **Set up environment variables:**
+
+   ```bash
+   cp .env.example .env
+   # Edit .env with your values
+   ```
+
+5. **Start the development server:**
+
+   ```bash
+   npm run dev
+   # Or if you prefer yarn:
+   yarn dev
+   ```
+
+6. **Open your browser:**
+   Visit `http://localhost:5173` to see your portfolio! ✨
+
+### 🔧 Available Scripts
+
+| Command           | Description               |
+| ----------------- | ------------------------- |
+| `npm run dev`     | Start development server  |
+| `npm run build`   | Build for production      |
+| `npm run preview` | Preview production build  |
+| `npm run lint`    | Lint code with ESLint     |
+| `npm run format`  | Format code with Prettier |
+
+### 📝 Environment Variables
+
+| Variable                 | Description         | Required |
+| ------------------------ | ------------------- | -------- |
+| `VITE_EMAIL_SERVICE_ID`  | EmailJS service ID  | Yes      |
+| `VITE_EMAIL_TEMPLATE_ID` | EmailJS template ID | Yes      |
+| `VITE_EMAIL_PUBLIC_KEY`  | EmailJS public key  | Yes      |
+
+## 📊 Performance
+
+### Lighthouse Report
+
+<div align="center">
+
+![Lighthouse Report](https://raw.githubusercontent.com/GourangaDasSamrat/My-Personal-Portfolio/main/public/images/lighthouse-report.png)
+
+| Metric            | Score   |
+| ----------------- | ------- |
+| 🚀 Performance    | 98/100  |
+| ♿ Accessibility  | 100/100 |
+| 🛠️ Best Practices | 100/100 |
+| 🔍 SEO            | 100/100 |
+
+</div>
+
+### ⚡ Optimizations
+
+- 🎯 Implemented lazy loading for images and 3D models
+- 📦 Optimized asset delivery with efficient bundling
+- 🗜️ Compressed and optimized all static assets
+- 🔄 Implemented efficient component rendering
+- 💾 Leveraged browser caching
+- 📱 Responsive images with WebP format
+- ⚡ Code splitting and dynamic imports
+
+### 📈 Key Metrics
+
+- **First Contentful Paint (FCP)**: < 1.5s
+- **Time to Interactive (TTI)**: < 2.8s
+- **Total Blocking Time (TBT)**: < 150ms
+- **Cumulative Layout Shift (CLS)**: < 0.1
+- **Largest Contentful Paint (LCP)**: < 2.5s
 
 ## 📂 Project Structure
 
