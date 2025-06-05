@@ -631,7 +631,68 @@ to {
 </summary>
 
 ```html
-<div
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333333;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header {
+            background-color: #1C34FF;
+            color: white;
+            padding: 20px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        .content {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        .message-box {
+            background-color: white;
+            padding: 15px;
+            border-left: 4px solid #1C34FF;
+            margin: 15px 0;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 12px;
+            color: #666666;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h2>New Contact Form Submission</h2>
+    </div>
+
+    <div class="content">
+        <p><strong>From:</strong> {{from_name}}</p>
+        <p><strong>Email:</strong> {{reply_to}}</p>
+        <p><strong>Subject:</strong> {{subject}}</p>
+
+        <div class="message-box">
+            <p><strong>Message:</strong></p>
+            <p>{{message}}</p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>This email was sent from your portfolio website's contact form.</p>
+        <p>© {{to_name}} - Portfolio Contact System</p>
+    </div>
+</body>
+</html>
   style="font-family: system-ui, sans-serif, Arial; font-size: 14px; max-width: 600px; margin: 0 auto; border: 1px solid #e0e0e0; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);"
 >
   <!-- Envelope Header -->
@@ -718,6 +779,7 @@ Hey, if you find any bugs, have ideas for improvements, or want to add a new fea
 This project is open source and available under the [MIT License](LICENSE). You can find the full
 
 ---
+
 ## 👤 Author & Contact
 
 <p align="center">
@@ -757,7 +819,6 @@ This project is open source and available under the [MIT License](LICENSE). You 
 <p align="center">
   <i>Let's connect! I'm always open to collaboration, frontend projects, or just a friendly chat about JavaScript and React.</i>
 </p>
-
 
 ---
 
