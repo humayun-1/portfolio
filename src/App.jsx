@@ -34,7 +34,10 @@ const MainContent = () => (
         property="og:description"
         content="Highly motivated and passionate Frontend Web Developer specializing in modern web applications with HTML, CSS, JavaScript, and React JS. Explore my work here."
       />
-      <meta property="og:image" content="https://ibb.co/G6ZjmRf" />
+      <meta
+        property="og:image"
+        content="https://i.postimg.cc/BQkkcqtM/Screenshot-from-2025-06-05-18-38-36.png"
+      />
       <meta property="og:url" content="https://gourangadas.netlify.app/" />
       <meta property="og:type" content="website" />
       <meta property="og:site_name" content="Gouranga Das Samrat - Portfolio" />
@@ -48,7 +51,10 @@ const MainContent = () => (
         name="twitter:description"
         content="Highly motivated and passionate Frontend Web Developer specializing in modern web applications with HTML, CSS, JavaScript, and React JS. Explore my work here."
       />
-      <meta name="twitter:image" content="https://ibb.co/G6ZjmRf" />
+      <meta
+        name="twitter:image"
+        content="https://i.postimg.cc/BQkkcqtM/Screenshot-from-2025-06-05-18-38-36.png"
+      />
       <meta name="twitter:site" content="@gouranga_khulna" />{" "}
       <meta name="twitter:creator" content="@gouranga_khulna" />{" "}
       <script type="application/ld+json">
@@ -96,7 +102,7 @@ const MainContent = () => (
       "gender": "Male",
       "nationality": "Bangladeshi",
       "description": "Highly motivated and passionate 16-year-old Frontend Web Developer specializing in building modern, responsive, and user-friendly web applications.",
-      "image": "https://ibb.co/G6ZjmRf",
+      "image": "https://i.postimg.cc/BQkkcqtM/Screenshot-from-2025-06-05-18-38-36.png",
       "knowsAbout": ["Frontend Development", "React JS", "JavaScript", "HTML", "CSS", "Bootstrap", "Responsive Web Design", "UI Development", "Web Development", "Single Page Applications"],
       "birthDate": "2008-10-05"
     }
