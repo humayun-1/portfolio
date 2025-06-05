@@ -36,7 +36,7 @@ const MainContent = () => (
       />
       <meta
         property="og:image"
-        content="https://i.postimg.cc/BQkkcqtM/Screenshot-from-2025-06-05-18-38-36.png"
+        content="https://raw.githubusercontent.com/GourangaDasSamrat/My-Personal-Portfolio/refs/heads/main/public/images/Preview.png
       />
       <meta property="og:url" content="https://gourangadas.netlify.app/" />
       <meta property="og:type" content="website" />
@@ -53,7 +53,7 @@ const MainContent = () => (
       />
       <meta
         name="twitter:image"
-        content="https://i.postimg.cc/BQkkcqtM/Screenshot-from-2025-06-05-18-38-36.png"
+        content="https://raw.githubusercontent.com/GourangaDasSamrat/My-Personal-Portfolio/refs/heads/main/public/images/Preview.png
       />
       <meta name="twitter:site" content="@gouranga_khulna" />{" "}
       <meta name="twitter:creator" content="@gouranga_khulna" />{" "}
@@ -102,7 +102,7 @@ const MainContent = () => (
       "gender": "Male",
       "nationality": "Bangladeshi",
       "description": "Highly motivated and passionate 16-year-old Frontend Web Developer specializing in building modern, responsive, and user-friendly web applications.",
-      "image": "https://i.postimg.cc/BQkkcqtM/Screenshot-from-2025-06-05-18-38-36.png",
+      "image": "https://raw.githubusercontent.com/GourangaDasSamrat/My-Personal-Portfolio/refs/heads/main/public/images/Preview.png,
       "knowsAbout": ["Frontend Development", "React JS", "JavaScript", "HTML", "CSS", "Bootstrap", "Responsive Web Design", "UI Development", "Web Development", "Single Page Applications"],
       "birthDate": "2008-10-05"
     }
