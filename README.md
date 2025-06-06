@@ -7,9 +7,9 @@
 [![Three.js](https://img.shields.io/badge/ThreeJs-black?style=for-the-badge&logo=three.js&logoColor=white)](https://threejs.org/)
 [![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-View%20Portfolio-%23FF0000?style=for-the-badge)](https://gourangadas.netlify.app)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-View%20Portfolio-%23FF0000?style=for-the-badge)](https://gouranga-das.netlify.app)
 
-[![Website Status](https://img.shields.io/website?style=for-the-badge&url=https%3A%2F%2Fgourangadas.netlify.app)](https://gourangadas.netlify.app)
+[![Website Status](https://img.shields.io/website?style=for-the-badge&url=https%3A%2F%2Fgouranga-das.netlify.app)](https://gouranga-das.netlify.app)
 [![GitHub stars](https://img.shields.io/github/stars/GourangaDasSamrat/My-Personal-Portfolio?style=for-the-badge)](https://github.com/GourangaDasSamrat/My-Personal-Portfolio/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/GourangaDasSamrat/My-Personal-Portfolio?style=for-the-badge)](https://github.com/GourangaDasSamrat/My-Personal-Portfolio/network)
 [![GitHub issues](https://img.shields.io/github/issues/GourangaDasSamrat/My-Personal-Portfolio?style=for-the-badge)](https://github.com/GourangaDasSamrat/My-Personal-Portfolio/issues)
@@ -18,7 +18,7 @@
 Welcome to my innovative portfolio—where creativity meets technology. Built with React, Three.js, and Vite, this showcase features stunning 3D models, fluid animations, and a fully responsive design that creates an immersive viewing experience.
 </p>
 
-[View Live Demo](https://gourangadas.netlify.app) • [Watch Demo Video](https://youtu.be/d9xWeuUohDo) • [Report Bug](https://github.com/GourangaDasSamrat/My-Personal-Portfolio/issues) • [Request Feature](https://github.com/GourangaDasSamrat/My-Personal-Portfolio/issues)
+[View Live Demo](https://gouranga-das.netlify.app) • [Watch Demo Video](https://youtu.be/d9xWeuUohDo) • [Report Bug](https://github.com/GourangaDasSamrat/My-Personal-Portfolio/issues) • [Request Feature](https://github.com/GourangaDasSamrat/My-Personal-Portfolio/issues)
 
 </div>
 
@@ -794,7 +794,7 @@ This project is open source and available under the [MIT License](LICENSE). You 
 <p align="center">
   <a href="https://github.com/GourangaDasSamrat" title="GitHub"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
   <a href="https://linkedin.com/in/gouranga-das-samrat" title="LinkedIn"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="https://gourangadas.netlify.app/" title="Portfolio"><img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=chrome&logoColor=white" alt="Portfolio"></a>
+  <a href="https://gouranga-das.netlify.app/" title="Portfolio"><img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=chrome&logoColor=white" alt="Portfolio"></a>
   <a href="mailto:gouranga.das.khulna@gmail.com" title="Email"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
   <a href="https://leetcode.com/u/gourangadassamrat/" title="LeetCode"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode"></a>
   <a href="https://codepen.io/gouranga-das-samrat" title="CodePen"><img src="https://img.shields.io/badge/CodePen-000000?style=for-the-badge&logo=codepen&logoColor=white" alt="CodePen"></a>

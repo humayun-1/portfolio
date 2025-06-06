@@ -1,9 +1,9 @@
-# --- Netlify Redirects for GourangaDas.netlify.app ---
+# --- Netlify Redirects for gouranga-das.netlify.app ---
 
 # 1. Canonicalization: Redirect 'www' to non-'www' version
-#    This ensures all traffic goes to your preferred URL (gourangadas.netlify.app).
+#    This ensures all traffic goes to your preferred URL (gouranga-das.netlify.app).
 #    It's a permanent 301 redirect, which is great for SEO.
-https://www.gourangadas.netlify.app/* https://gourangadas.netlify.app/:splat 301!
+https://www.gouranga-das.netlify.app/* https://gouranga-das.netlify.app/:splat 301!
 
 # 2. SPA Fallback / Client-side Routing
 #    This rule is CRUCIAL for React/Vite (Single Page Applications) on Netlify.

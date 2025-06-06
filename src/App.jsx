@@ -38,7 +38,7 @@ const MainContent = () => (
         name="keywords"
         content="Gouranga Das Samrat, Frontend Developer, Web Developer, React JS, JavaScript ES6, HTML, CSS, Bootstrap 5, Responsive Web Design, UI Development, Web Development Portfolio, Junior Frontend Developer, Bangladesh Developer, Khulna, Modern Web Development, Single Page Application"
       />
-      <link rel="canonical" href="https://gourangadas.netlify.app/" />
+      <link rel="canonical" href="https://gouranga-das.netlify.app/" />
       <meta name="theme-color" content="#000000" />
       <meta
         property="og:title"
@@ -52,7 +52,7 @@ const MainContent = () => (
         property="og:image"
         content="https://raw.githubusercontent.com/GourangaDasSamrat/My-Personal-Portfolio/refs/heads/main/public/images/Preview.png"
       />
-      <meta property="og:url" content="https://gourangadas.netlify.app/" />
+      <meta property="og:url" content="https://gouranga-das.netlify.app/" />
       <meta property="og:type" content="website" />
       <meta property="og:site_name" content="Gouranga Das Samrat - Portfolio" />
       <meta property="og:locale" content="en_US" />
@@ -84,7 +84,7 @@ const MainContent = () => (
       "@context": "https://schema.org",
       "@type": "Person",
       "name": "Gouranga Das Samrat",
-      "url": "https://gourangadas.netlify.app/",
+      "url": "https://gouranga-das.netlify.app/",
       "email": "gouranga.das.khulna@gmail.com",
       "telephone": "",
       "address": {
@@ -104,7 +104,7 @@ const MainContent = () => (
       "sameAs": [
         "https://github.com/GourangaDasSamrat",
         "https://linkedin.com/in/gouranga-das-samrat",
-        "https://gourangadas.netlify.app/",
+        "https://gouranga-das.netlify.app/",
         "mailto:gouranga.das.khulna@gmail.com",
         "https://leetcode.com/u/gourangadassamrat/",
         "https://codepen.io/gouranga-das-samrat",
@@ -209,7 +209,7 @@ const MainContent = () => (
       <meta name="referrer" content="strict-origin-when-cross-origin" />
       <link rel="me" href="https://github.com/GourangaDasSamrat" />
       <link rel="me" href="https://linkedin.com/in/gouranga-das-samrat" />
-      <link rel="author" href="https://gourangadas.netlify.app/about" />
+      <link rel="author" href="https://gouranga-das.netlify.app/about" />
     </Helmet>
     <NavBar />
     <Loader />
