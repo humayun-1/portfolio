@@ -1,19 +1,8 @@
-# --- Netlify Redirects for gouranga-das.netlify.app ---
+# --- Netlify Redirects ---
 
-# 1. Canonicalization: Redirect 'www' to non-'www' version
-#    This ensures all traffic goes to your preferred URL (gouranga-das.netlify.app).
-#    It's a permanent 301 redirect, which is great for SEO.
-https://www.gouranga-das.netlify.app/* https://gouranga-das.netlify.app/:splat 301!
-
-# 2. SPA Fallback / Client-side Routing
-#    This rule is CRUCIAL for React/Vite (Single Page Applications) on Netlify.
-#    It tells Netlify that if a requested path doesn't match a file,
-#    it should serve your index.html (your main React app), but return a 200 OK status.
-#    This allows your React Router to then handle the URL (e.g., /about, /projects).
+# SPA Fallback / Client-side Routing
+# This rule is needed for React/Vite (Single Page Applications) on Netlify.
+# It tells Netlify to serve index.html for all routes
 /* /index.html 200
-
-# 3. Optional: Ensure all HTTP requests redirect to HTTPS (Netlify usually handles this automatically)
-#    You generally don't need this line, as Netlify provides HTTPS by default.
-# http://* https://:splat 301!
 
 # --- End of _redirects file ---
