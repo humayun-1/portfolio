@@ -86,38 +86,38 @@ const iconsList = [
 const slides = [
   {
     id: 1,
-    title: "MoonshotMagax",
-    img: "/images/p1.png",
+    title: "Web3 Crypto Meme Coin",
+    img: "/images/web3.png",
   },
   {
     id: 2,
     title: "Skywench",
-    img: "/images/p2.png",
+    img: "/images/skywench.png",
   },
   {
     id: 3,
     title: "MNK Studios",
-    img: "/images/p3.png",
+    img: "/images/mnk-studios.png",
   },
   {
     id: 4,
     title: "Melody House",
-    img: "/images/p4.png",
+    img: "/images/melody-house.png",
   },
   {
     id: 5,
     title: "BluXinga",
-    img: "/images/p5.png",
+    img: "/images/bluxinga.png",
   },
   {
     id: 6,
     title: "PAAQ",
-    img: "/images/p6.png",
+    img: "/images/PAAQ.png",
   },
   {
     id: 7,
-    title: "Low-Code Builder (Enxsys)",
-    img: "/images/p7.png",
+    title: "Low-Code Builder",
+    img: "/images/low-code.png",
   },
 ];
 

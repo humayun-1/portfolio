@@ -35,7 +35,7 @@ const NavBar = () => {
               href="/Muhammad-Humayun-Jawad-CV.docx"
               download
               className="relative bg-blue-300 text-black-100 font-semibold py-2 px-5 rounded-full shadow-lg
-              transition-all duration-300 border-2 border-blue-300 hover:bg-transparent hover:text-blue-300
+              transition-all duration-300 border-2 border-blue-300 hover:bg-transparent hover:text-white
               hover:border-blue-300 text-base overflow-hidden group"
             >
               <span className="relative z-10">Download CV</span>
@@ -45,7 +45,7 @@ const NavBar = () => {
               href="#contact"
               onClick={scrollToContact}
               className="relative bg-pink-100 text-white-50 font-semibold py-2 px-5 rounded-full shadow-lg
-              transition-all duration-300 border-2 border-pink-100 hover:bg-transparent hover:text-pink-100
+              transition-all duration-300 border-2 border-pink-100 hover:bg-transparent hover:text-black
               hover:border-pink-100 text-base overflow-hidden group"
             >
               <span className="relative z-10">Hire Me</span>
@@ -59,4 +59,3 @@ const NavBar = () => {
 };
 
 export default NavBar;
-
