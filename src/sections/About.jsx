@@ -35,7 +35,7 @@ const About = () => {
                     Experienced full-stack developer with 5+ years of hands-on
                     work, specializing in React.js, Next.js, and TypeScript. I
                     build responsive, scalable, and production-grade web
-                    applications across frontend, backend, and infrastructure
+                    applications across client, server, and infrastructure
                     with Node.js, Prisma, Supabase, Firebase, AWS, and CI/CD
                     pipelines.
                   </p>
