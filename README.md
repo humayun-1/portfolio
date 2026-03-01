@@ -3,7 +3,7 @@
 Personal portfolio website built with React, Vite, Three.js, and GSAP.
 
 ## Live
-- Production: https://humayun-portfolio-3d.vercel.app
+- Production: https://humayunjawad.com
 
 ## Tech Stack
 - React 19
@@ -64,8 +64,9 @@ npm run build
 ```
 
 ## Deployment
-This project is deployed on Vercel and connected to:
-- Repo: https://github.com/humayun-1/portfolio
+This project is deployed on Vercel and accessible at:
+- https://humayunjawad.com
+- https://www.humayunjawad.com
 
 ## License
 MIT License. See [LICENSE](LICENSE).
