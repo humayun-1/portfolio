@@ -26,7 +26,7 @@ const bentoSocialLinks = [
   {
     name: "Email",
     href: "mailto:muhammadhumayunjawad@gmail.com",
-    icon: "/images/insta.svg",
+    icon: "/images/email.svg",
   },
   {
     name: "Contact",
@@ -130,7 +130,7 @@ const footerIconsList = [
   {
     name: "Email",
     href: "mailto:muhammadhumayunjawad@gmail.com",
-    icon: "/images/b-insta.svg",
+    icon: "/images/b-email.svg",
   },
   {
     name: "Projects",
