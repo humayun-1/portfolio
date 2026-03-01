@@ -1,15 +1,17 @@
 import { footerIconsList } from "../constants";
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
+
   return (
     <div className="w-full flex-center flex-col md:gap-10 gap-7 bg-black-300 py-10">
-      <div>
+      {/* <div>
         <img
           src="/images/logo.png"
           alt="logo"
           className="w-7 h-7 object-cover object-center"
         />
-      </div>
+      </div>*/}
       <div className="flex items-center md:gap-16 gap-8">
         {footerIconsList.map((icon, index) => (
           <a
@@ -28,7 +30,7 @@ const Footer = () => {
         ))}
       </div>
       <p className="font-regular md:text-lg text-sm">
-        2026 (c) Muhammad Humayun Jawad. All rights reserved.
+        {currentYear} (c) Muhammad Humayun Jawad. All rights reserved.
       </p>
     </div>
   );

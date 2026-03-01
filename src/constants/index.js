@@ -21,7 +21,7 @@ const bentoSocialLinks = [
   {
     name: "LinkedIn",
     href: "https://www.linkedin.com/in/humayun-jawad",
-    icon: "/images/fb.svg",
+    icon: "/images/linkedin.svg",
   },
   {
     name: "Email",
@@ -31,12 +31,12 @@ const bentoSocialLinks = [
   {
     name: "Contact",
     href: "#contact",
-    icon: "/images/linkedin.svg",
+    icon: "/images/whatsapp.svg",
   },
   {
     name: "Projects",
     href: "#projects",
-    icon: "/images/whatsapp.svg",
+    icon: "/images/projects.svg",
   },
 ];
 
@@ -125,23 +125,23 @@ const footerIconsList = [
   {
     name: "LinkedIn",
     href: "https://www.linkedin.com/in/humayun-jawad",
-    icon: "/images/b-fb.svg",
+    icon: "/images/b-linked.svg",
   },
   {
     name: "Email",
     href: "mailto:muhammadhumayunjawad@gmail.com",
     icon: "/images/b-email.svg",
   },
-  {
-    name: "Projects",
-    href: "#projects",
-    icon: "/images/b-linked.svg",
-  },
-  {
-    name: "Contact",
-    href: "#contact",
-    icon: "/images/b-whatsapp.svg",
-  },
+  // {
+  //   name: "Projects",
+  //   href: "#projects",
+  //   icon: "/images/b-projects.svg",
+  // },
+  // {
+  //   name: "Contact",
+  //   href: "#contact",
+  //   icon: "/images/b-whatsapp.svg",
+  // },
 ];
 
 export { bentoSocialLinks, footerIconsList, iconsList, navItems, slides };
