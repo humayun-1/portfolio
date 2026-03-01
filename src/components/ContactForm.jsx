@@ -43,7 +43,7 @@ const ContactForm = () => {
     try {
       const payload = {
         from_name: data.name,
-        to_name: "Full Stack Developer",
+        to_name: "Muhammad Humayun Jawad",
         message: data.message,
         reply_to: data.email,
         subject: data.subject,

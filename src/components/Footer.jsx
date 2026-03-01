@@ -12,8 +12,11 @@ const Footer = () => {
       </div>
       <div className="flex items-center md:gap-16 gap-8">
         {footerIconsList.map((icon, index) => (
-          <div
+          <a
             key={index}
+            href={icon.href}
+            target={icon.href.startsWith("http") ? "_blank" : "_self"}
+            rel={icon.href.startsWith("http") ? "noreferrer" : undefined}
             className="cursor-pointer hover:-translate-y-5 transition-all duration-700"
           >
             <img
@@ -21,11 +24,11 @@ const Footer = () => {
               alt={icon.name}
               className="md:size-10 size-8"
             />
-          </div>
+          </a>
         ))}
       </div>
       <p className="font-regular md:text-lg text-sm">
-        2025 © All rights reserved.
+        2026 (c) Muhammad Humayun Jawad. All rights reserved.
       </p>
     </div>
   );

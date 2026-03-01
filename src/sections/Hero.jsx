@@ -16,11 +16,9 @@ const Hero = () => {
       <div className="w-full h-full flex-center">
         <div className="container relative w-full h-full">
           <div className="md:mt-40 mt-20">
-            <p className="font md:text-2xl text-base">👋 Hey, I&apos;m Here</p>
-            <h1 className="font-bold md:text-9xl text-5xl">
-              GOURANGA DAS SAMRAT
-            </h1>
-            <h1 className="font-bold md:text-9xl text-5xl">CREATIVE</h1>
+            <p className="font md:text-2xl text-base">Hello, I&apos;m</p>
+            <h1 className="font-bold md:text-9xl text-5xl">Humayun Jawad</h1>
+            <h1 className="font-bold md:text-9xl text-5xl">FULL STACK</h1>
           </div>
           <div className="absolute w-full z-30 bottom-20 right-0">
             <div className="flex justify-between items-end">

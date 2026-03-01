@@ -784,11 +784,11 @@ This project is open source and available under the [MIT License](LICENSE). You 
 ## 👤 Author & Contact
 
 <p align="center">
-  <img src="https://i.postimg.cc/Bnwyx7kh/485760954-644674311798231-1067913994704069438-n.jpg" alt="Gouranga Das Samrat" width="110" style="border-radius:50%;margin-bottom:10px;box-shadow:0 2px 8px #ccc;"/>
+  <img src="https://i.postimg.cc/Bnwyx7kh/485760954-644674311798231-1067913994704069438-n.jpg" alt="Humayun Jawad" width="110" style="border-radius:50%;margin-bottom:10px;box-shadow:0 2px 8px #ccc;"/>
 </p>
 
 <p align="center">
-  <b>Gouranga Das Samrat</b><br>
+  <b>Humayun Jawad</b><br>
   <i>Frontend Developer | JavaScript & React Expert | Open Source Enthusiast</i>
 </p>
 <p align="center">

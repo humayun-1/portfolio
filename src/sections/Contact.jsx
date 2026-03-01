@@ -9,7 +9,7 @@ const Contact = () => {
         <TitleHeader
           title="Contact Me"
           number="04"
-          text="Let's collaborate on tailored, sustainable solutions"
+          text="Let us build high-performance, user-focused products together"
         />
         <div className="mt-20">
           <div className="grid grid-cols-12">
