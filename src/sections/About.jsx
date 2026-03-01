@@ -1,8 +1,4 @@
-import { OrbitControls } from "@react-three/drei";
-import { Canvas } from "@react-three/fiber";
-
 import GradientSpheres from "../components/GradientSpheres";
-import { Alien } from "../components/models/Alien";
 import TitleHeader from "../components/TitleHeader";
 import { bentoSocialLinks } from "../constants";
 
@@ -18,7 +14,7 @@ const About = () => {
         <TitleHeader
           title="About Me"
           number="01"
-          text="Passionate Creator, Lifelong Learner"
+          text="Full stack engineer focused on product quality"
         />
         <div className="md:mt-20 mt-10">
           <div className="grid grid-cols-12 md:grid-rows-12 gap-5">
@@ -33,44 +29,33 @@ const About = () => {
                 </div>
                 <div className="mt-5">
                   <h1 className="text-blue-50 md:text-5xl text-3xl">
-                    GOURANGA DAS SAMRAT
+                    Humayun Jawad
                   </h1>
                   <p className="md:text-2xl mt-2">
-                    I am a Bangladesh-based Frontend Web Developer , primarily
-                    focusing on web design and development. I love learning new
-                    things and bringing ideas to life through code. I have
-                    worked on various projects, gaining experience with HTML,
-                    CSS, JavaScript, Bootstrap 5, and diving into React JS. My
-                    goal is always to build user-friendly and visually appealing
-                    websites.
+                    Experienced full-stack developer with 5+ years of hands-on
+                    work, specializing in React.js, Next.js, and TypeScript. I
+                    focus on frontend architecture, responsive interfaces, and
+                    production-grade UX. I also work across backend and
+                    infrastructure with Node.js, Prisma, Supabase, Firebase,
+                    AWS, and CI/CD pipelines.
                   </p>
                 </div>
               </div>
             </div>
             <div className="md:col-span-5 col-span-12 row-span-5">
               <div className="bg-[#C8D751] hover:cursor-grab rounded-2xl w-full md:h-full h-60">
-                <div className="w-full h-full">
-                  <Canvas>
-                    <ambientLight />
-                    <OrbitControls enableZoom={false} />
-                    <Alien
-                      scale={2}
-                      position={[0, -5.5, 0]}
-                      rotation={[0, -0.5, 0]}
-                    />
-                  </Canvas>
-                </div>
+                <div className="w-full h-full"></div>
               </div>
             </div>
             <div className="md:col-span-6 col-span-12 row-span-3">
               <div className="bg-black-300 rounded-2xl p-7 w-full h-full">
                 <div className="flex flex-col h-full justify-center gap-2">
                   <h1 className="gradient-title md:text-3xl text-2xl font-medium">
-                    Web Design & Dev
+                    Frontend Engineering
                   </h1>
                   <p className="md:text-2xl max-w-96">
-                    Cleanly Designed, Conversion-focused, and build for easy
-                    updates.
+                    Building scalable interfaces with React, Next.js, and
+                    TypeScript for high-performance products.
                   </p>
                 </div>
               </div>
@@ -79,10 +64,11 @@ const About = () => {
               <div className="bg-black-300 rounded-2xl p-7 w-full h-full">
                 <div className="flex flex-col h-full justify-center gap-2">
                   <h1 className="gradient-title md:text-3xl text-2xl font-medium">
-                    UX UI Design
+                    Systems & Integrations
                   </h1>
                   <p className="md:text-2xl max-w-96">
-                    Seamless web or mobile app design to wow your users.
+                    API integration, cloud deployment, and maintainable
+                    full-stack architecture with reliable delivery.
                   </p>
                 </div>
               </div>
@@ -91,36 +77,42 @@ const About = () => {
               <div className="bg-black-300 rounded-2xl p-7 w-full h-full">
                 <div className="flex flex-col justify-between h-full">
                   <h1 className="gradient-title md:text-5xl text-3xl font-bold">
-                    BE YOURSELF!
+                    BUILD FAST!
                   </h1>
                   <h1 className="gradient-title md:text-5xl text-3xl font-bold">
-                    BE DIFFERENT!
+                    BUILD CLEAN!
                   </h1>
                   <h1 className="gradient-title md:text-5xl text-3xl font-bold">
-                    BUILD DIFFERENT!
+                    SHIP VALUE!
                   </h1>
                 </div>
               </div>
             </div>
             {bentoSocialLinks.map((item, index) => (
               <div key={index} className="md:col-span-4 col-span-12 row-span-2">
-                <div className="bg-black-300 rounded-2xl p-7 w-full h-full group cursor-pointer">
-                  <div className="flex justify-between items-center h-full">
-                    <div className="flex items-center md:gap-5">
-                      <img src={item.icon} alt={item.icon} />
-                      <h1 className="gradient-title md:text-3xl text-xl md:m-0 ms-5 font-medium">
-                        {item.name}
-                      </h1>
-                    </div>
-                    <div className="group-hover:translate-x-2 group-hover:-translate-y-2 transition-transform">
-                      <img
-                        src="/images/arrowupright.svg"
-                        alt="arrow-up"
-                        className="md:scale-100 scale-50"
-                      />
+                <a
+                  href={item.href}
+                  target={item.href.startsWith("http") ? "_blank" : "_self"}
+                  rel={item.href.startsWith("http") ? "noreferrer" : undefined}
+                >
+                  <div className="bg-black-300 rounded-2xl p-7 w-full h-full group cursor-pointer">
+                    <div className="flex justify-between items-center h-full">
+                      <div className="flex items-center md:gap-5">
+                        <img src={item.icon} alt={item.icon} />
+                        <h1 className="gradient-title md:text-3xl text-xl md:m-0 ms-5 font-medium">
+                          {item.name}
+                        </h1>
+                      </div>
+                      <div className="group-hover:translate-x-2 group-hover:-translate-y-2 transition-transform">
+                        <img
+                          src="/images/arrowupright.svg"
+                          alt="arrow-up"
+                          className="md:scale-100 scale-50"
+                        />
+                      </div>
                     </div>
                   </div>
-                </div>
+                </a>
               </div>
             ))}
           </div>

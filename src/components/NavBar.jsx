@@ -32,7 +32,7 @@ const NavBar = () => {
           ))}
           <div className="flex items-center gap-4">
             <a
-              href="/My-Resume.pdf"
+              href="/Muhammad-Humayun-Jawad-CV.docx"
               download
               className="relative bg-blue-300 text-black-100 font-semibold py-2 px-5 rounded-full shadow-lg
               transition-all duration-300 border-2 border-blue-300 hover:bg-transparent hover:text-blue-300
@@ -59,3 +59,4 @@ const NavBar = () => {
 };
 
 export default NavBar;
+

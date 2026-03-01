@@ -12,7 +12,8 @@ const Carousel = () => {
 
   const prevSlide = () => {
     setCurrentSlide(
-      (prevSlide) => (prevSlide - 1 + (slides.length - 1)) % (slides.length - 1)
+      (prevSlide) =>
+        (prevSlide - 1 + (slides.length - 1)) % (slides.length - 1),
     );
   };
 

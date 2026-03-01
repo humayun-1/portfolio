@@ -19,23 +19,23 @@ const navItems = [
 
 const bentoSocialLinks = [
   {
-    name: "Facebook",
-    href: "https://www.facebook.com/gourangadassamrat/",
+    name: "LinkedIn",
+    href: "https://www.linkedin.com/in/humayun-jawad",
     icon: "/images/fb.svg",
   },
   {
-    name: "Instagram",
-    href: "https://www.instagram.com/gouranga.das.khulna/",
+    name: "Email",
+    href: "mailto:muhammadhumayunjawad@gmail.com",
     icon: "/images/insta.svg",
   },
   {
-    name: "LinkedIn",
-    href: "https://www.linkedin.com/in/gouranga-das-samrat/",
+    name: "Contact",
+    href: "#contact",
     icon: "/images/linkedin.svg",
   },
   {
-    name: "WhatsApp",
-    href: "https://www.facebook.com/",
+    name: "Projects",
+    href: "#projects",
     icon: "/images/whatsapp.svg",
   },
 ];
@@ -86,60 +86,60 @@ const iconsList = [
 const slides = [
   {
     id: 1,
-    title: "iBlog",
+    title: "MoonshotMagax",
     img: "/images/p1.png",
   },
   {
     id: 2,
-    title: "E-commerce Website",
+    title: "Skywench",
     img: "/images/p2.png",
   },
   {
     id: 3,
-    title: "Daraz Clone",
+    title: "MNK Studios",
     img: "/images/p3.png",
   },
   {
     id: 4,
-    title: "Quiz App",
+    title: "Melody House",
     img: "/images/p4.png",
   },
   {
     id: 5,
-    title: "Text Editor",
+    title: "BluXinga",
     img: "/images/p5.png",
   },
   {
     id: 6,
-    title: "Code Editor",
+    title: "PAAQ",
     img: "/images/p6.png",
   },
   {
     id: 7,
-    title: "Python Compiler",
+    title: "Low-Code Builder (Enxsys)",
     img: "/images/p7.png",
   },
 ];
 
 const footerIconsList = [
   {
-    name: "Facebook",
-    href: "https://www.facebook.com/gourangadassamrat/",
+    name: "LinkedIn",
+    href: "https://www.linkedin.com/in/humayun-jawad",
     icon: "/images/b-fb.svg",
   },
   {
-    name: "Instagram",
-    href: "https://www.instagram.com/gouranga.das.khulna/",
+    name: "Email",
+    href: "mailto:muhammadhumayunjawad@gmail.com",
     icon: "/images/b-insta.svg",
   },
   {
-    name: "LinkedIn",
-    href: "https://www.linkedin.com/in/gouranga-das-samrat/",
+    name: "Projects",
+    href: "#projects",
     icon: "/images/b-linked.svg",
   },
   {
-    name: "WhatsApp",
-    href: "https://www.facebook.com/",
+    name: "Contact",
+    href: "#contact",
     icon: "/images/b-whatsapp.svg",
   },
 ];

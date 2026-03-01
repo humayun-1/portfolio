@@ -16,7 +16,7 @@ const Loader = () => {
   }, [progress]);
 
   return (
-    <div className="loader-screen bg-black-100 w-screen h-dvh fixed top-0 left-0 z-[100]">
+    <div className="hidden loader-screen bg-black-100 w-screen h-dvh fixed top-0 left-0 z-[100]">
       <div className="flex-center w-full h-full">
         <img src="/images/loader.gif" alt="loader" />
       </div>

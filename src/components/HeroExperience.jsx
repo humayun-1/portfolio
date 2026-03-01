@@ -5,11 +5,11 @@ const HeroExperience = () => {
   return (
     <Canvas>
       <ambientLight />
-      <directionalLight position={[-2, 0, 3]} intensity={3} color={"#FF28D5"} />
-      <directionalLight position={[2, 0, 3]} intensity={3} color={"#1C34FF"} />
+      <directionalLight position={[-2, 0, 3]} intensity={3} color={"#caad94"} />
+      <directionalLight position={[2, 0, 3]} intensity={3} color={"#caad94"} />
 
       <group>
-        <Boy scale={9} position={[0, -15, 0]} />
+        <Boy scale={8.5} position={[0, -15, 0]} />
       </group>
     </Canvas>
   );

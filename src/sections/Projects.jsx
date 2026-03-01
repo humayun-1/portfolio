@@ -15,7 +15,7 @@ const Projects = () => {
           <TitleHeader
             title="My PROJECTS"
             number="03"
-            text="Check my recent project below for your Goal"
+            text="Selected work across Web3, SaaS platforms, and product interfaces"
           />
         </div>
         <div className="md:mt-20 mt-10">
