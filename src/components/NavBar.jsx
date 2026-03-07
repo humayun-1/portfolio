@@ -12,11 +12,20 @@ const NavBar = () => {
   return (
     <div className="w-full flex-center fixed z-50 top-0 left-0 md:p-0 px-5">
       <div className="container md:my-10 my-5 flex items-center justify-between">
-        <img
-          src="/images/logo.png"
-          alt="logo"
-          className="md:size-12 size-10 object-cover object-center"
-        />
+        <div
+          onClick={() =>
+            window.open(
+              "https://www.upwork.com/freelancers/~018523a64cbe13cfd9",
+            )
+          }
+          className="group md:size-12 size-10"
+        >
+          <img
+            src="my-img.png"
+            alt="logo"
+            className="border cursor-pointer md:size-12 size-10 object-cover object-center rounded-full transition-all duration-[1000ms] group-hover:scale-200 group-hover:rotate-y-[360deg]"
+          />
+        </div>
         <div className="md:flex items-center gap-7 hidden">
           {navItems.map((item, index) => (
             <div

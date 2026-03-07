@@ -32,19 +32,30 @@ const About = () => {
                     Humayun Jawad
                   </h1>
                   <p className="md:text-2xl mt-2">
-                    Experienced full-stack developer with 5+ years of hands-on
+                    Experienced full-stack developer with 6+ years of hands-on
                     work, specializing in React.js, Next.js, and TypeScript. I
                     build responsive, scalable, and production-grade web
-                    applications across client, server, and infrastructure
-                    with Node.js, Prisma, Supabase, Firebase, AWS, and CI/CD
+                    applications across client, server, and infrastructure with
+                    Node.js, Prisma, Supabase, Firebase, AWS, and CI/CD
                     pipelines.
                   </p>
                 </div>
               </div>
             </div>
             <div className="md:col-span-5 col-span-12 row-span-5">
-              <div className="bg-[#C8D751] hover:cursor-grab rounded-2xl w-full md:h-full h-60">
-                <div className="w-full h-full"></div>
+              <div
+                className="bg-[#c9a46a] hover:cursor-pointer rounded-2xl w-full md:h-full h-60"
+                onClick={() => {
+                  window.open("https://github.com/humayun-1/");
+                }}
+              >
+                <div className="w-full h-full flex flex-col justify-center items-center">
+                  {/* <img src="![GitHub Stats](https://github-readme-stats-fast.vercel.app/api/streak?username=pranesh-2005&theme=radical)" />*/}
+                  <h1 className="text-[#17151f] text-2xl font-bold mb-1">
+                    Github Stats
+                  </h1>
+                  <img src="https://github-readme-stats-fast.vercel.app/api/streak?username=humayun-1&theme=radical" />
+                </div>
               </div>
             </div>
             <div className="md:col-span-6 col-span-12 row-span-3">
