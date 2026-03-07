@@ -52,12 +52,16 @@ const NavBar = () => {
             </a>
             <a
               href="#contact"
-              onClick={scrollToContact}
+              onClick={() => {
+                window.open(
+                  "https://www.upwork.com/freelancers/~018523a64cbe13cfd9",
+                );
+              }}
               className="relative bg-pink-100 text-white-50 font-semibold py-2 px-5 rounded-full shadow-lg
               transition-all duration-300 border-2 border-pink-100 hover:bg-transparent hover:text-black
               hover:border-pink-100 text-base overflow-hidden group"
             >
-              <span className="relative z-10">Hire Me</span>
+              <span className="relative z-10">Hire Me on Upwork</span>
               <div className="absolute inset-0 bg-pink-100 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left"></div>
             </a>
           </div>
