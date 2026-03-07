@@ -4,7 +4,7 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <div className="w-full flex-center flex-col md:gap-10 gap-7 bg-black-300 py-10">
+    <div className="w-full flex-center flex-col md:gap-10 gap-7 bg-black-300 py-4">
       {/* <div>
         <img
           src="/images/logo.png"
@@ -12,7 +12,7 @@ const Footer = () => {
           className="w-7 h-7 object-cover object-center"
         />
       </div>*/}
-      <div className="flex items-center md:gap-16 gap-8">
+      {/* <div className="flex items-center md:gap-16 gap-8">
         {footerIconsList.map((icon, index) => (
           <a
             key={index}
@@ -28,7 +28,7 @@ const Footer = () => {
             />
           </a>
         ))}
-      </div>
+      </div>*/}
       <p className="font-regular md:text-lg text-sm">
         {currentYear} (c) Muhammad Humayun Jawad. All rights reserved.
       </p>

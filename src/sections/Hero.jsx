@@ -18,7 +18,7 @@ const Hero = () => {
           <div className="md:mt-40 mt-20">
             <p className="font md:text-2xl text-base">Hello, I&apos;m</p>
             <h1 className="font-bold md:text-9xl text-5xl">Humayun Jawad</h1>
-            <h1 className="font-bold md:text-9xl text-5xl">FULL STACK</h1>
+            <h1 className="font-bold md:text-9xl text-5xl">Full Stack</h1>
           </div>
           <div className="absolute w-full z-30 bottom-20 right-0">
             <div className="flex justify-between items-end">
@@ -32,7 +32,7 @@ const Hero = () => {
               </div>
               <div className="flex flex-col items-end">
                 <img src="/images/shape.svg" alt="shape" />
-                <h1 className="font-bold md:text-9xl text-5xl">DEVELOPER</h1>
+                <h1 className="font-bold md:text-9xl text-5xl">Developer</h1>
               </div>
             </div>
           </div>

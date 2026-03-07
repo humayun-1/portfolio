@@ -23,20 +23,25 @@ const bentoSocialLinks = [
     href: "https://www.linkedin.com/in/humayun-jawad",
     icon: "/images/linkedin.svg",
   },
-  {
-    name: "Email",
-    href: "mailto:muhammadhumayunjawad@gmail.com",
-    icon: "/images/email.svg",
-  },
-  {
-    name: "Contact",
-    href: "#contact",
-    icon: "/images/whatsapp.svg",
-  },
+  // {
+  //   name: "Email",
+  //   href: "mailto:muhammadhumayunjawad@gmail.com",
+  //   icon: "/images/email.svg",
+  // },
+  // {
+  //   name: "Contact",
+  //   href: "#contact",
+  //   icon: "/images/whatsapp.svg",
+  // },
   {
     name: "Projects",
     href: "#projects",
     icon: "/images/projects.svg",
+  },
+  {
+    name: "Github",
+    href: "https://github.com/humayun-1/",
+    icon: "/images/github-1.svg",
   },
 ];
 
