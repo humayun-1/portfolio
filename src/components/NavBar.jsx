@@ -22,7 +22,7 @@ const NavBar = () => {
         >
           <img
             src="my-img.png"
-            alt="logo"
+            alt="Humayun Jawad profile photo"
             className="border cursor-pointer md:size-12 size-10 object-cover object-center rounded-full transition-all duration-[1000ms] group-hover:scale-200 group-hover:rotate-y-[360deg]"
           />
         </div>

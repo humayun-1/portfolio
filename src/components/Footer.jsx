@@ -5,14 +5,7 @@ const Footer = () => {
 
   return (
     <div className="w-full flex-center flex-col md:gap-10 gap-7 bg-black-300 py-4">
-      {/* <div>
-        <img
-          src="/images/logo.png"
-          alt="logo"
-          className="w-7 h-7 object-cover object-center"
-        />
-      </div>*/}
-      {/* <div className="flex items-center md:gap-16 gap-8">
+      <div className="flex items-center md:gap-16 gap-8">
         {footerIconsList.map((icon, index) => (
           <a
             key={index}
@@ -28,10 +21,15 @@ const Footer = () => {
             />
           </a>
         ))}
-      </div>*/}
-      <p className="font-regular md:text-lg text-sm">
-        {currentYear} (c) Muhammad Humayun Jawad. All rights reserved.
-      </p>
+      </div>
+      <div className="text-center px-5">
+        <p className="font-regular md:text-lg text-sm text-white-50">
+          Official portfolio and professional website of Humayun Jawad.
+        </p>
+        <p className="font-regular md:text-lg text-sm">
+          {currentYear} (c) Humayun Jawad. All rights reserved.
+        </p>
+      </div>
     </div>
   );
 };

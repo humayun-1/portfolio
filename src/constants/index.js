@@ -17,6 +17,25 @@ const navItems = [
   },
 ];
 
+const professionalProfiles = [
+  {
+    name: "LinkedIn",
+    href: "https://www.linkedin.com/in/humayun-jawad",
+  },
+  {
+    name: "GitHub",
+    href: "https://github.com/humayun-1/",
+  },
+  {
+    name: "Upwork",
+    href: "https://www.upwork.com/freelancers/~018523a64cbe13cfd9",
+  },
+  {
+    name: "Fiverr",
+    href: "https://www.fiverr.com/humayun_jawad/convert-figma-to-react-jsx-as-early-as-possible",
+  },
+];
+
 const bentoSocialLinks = [
   {
     name: "LinkedIn",
@@ -149,4 +168,11 @@ const footerIconsList = [
   // },
 ];
 
-export { bentoSocialLinks, footerIconsList, iconsList, navItems, slides };
+export {
+  bentoSocialLinks,
+  footerIconsList,
+  iconsList,
+  navItems,
+  professionalProfiles,
+  slides,
+};

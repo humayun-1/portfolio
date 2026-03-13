@@ -1,5 +1,6 @@
 import GradientSpheres from "../components/GradientSpheres";
 import HeroExperience from "../components/HeroExperience";
+import { professionalProfiles } from "../constants";
 
 const Hero = () => {
   return (
@@ -18,7 +19,30 @@ const Hero = () => {
           <div className="md:mt-40 mt-20">
             <p className="font md:text-2xl text-base">Hello, I&apos;m</p>
             <h1 className="font-bold md:text-9xl text-5xl">Humayun Jawad</h1>
-            <h1 className="font-bold md:text-9xl text-5xl">Full Stack</h1>
+            <p className="mt-4 max-w-3xl md:text-2xl text-base text-white-50">
+              Humayun Jawad is a full stack developer in Pakistan specializing
+              in React, Next.js, TypeScript, Node.js, and scalable product
+              engineering.
+            </p>
+            <p className="mt-4 max-w-2xl md:text-xl text-sm">
+              Explore the official portfolio, recent projects, and public
+              profiles of Humayun Jawad across LinkedIn, GitHub, Upwork, and
+              Fiverr.
+            </p>
+            <div className="mt-6 flex flex-wrap gap-3">
+              {professionalProfiles.map((profile) => (
+                <a
+                  key={profile.name}
+                  href={profile.href}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="rounded-full border border-white/20 bg-black-300/70 px-4 py-2 text-sm text-white-50 transition-transform duration-300 hover:-translate-y-1"
+                >
+                  {profile.name}
+                </a>
+              ))}
+            </div>
+            <h2 className="font-bold md:text-9xl text-5xl mt-6">Full Stack</h2>
           </div>
           <div className="absolute w-full z-30 bottom-20 right-0">
             <div className="flex justify-between items-end">

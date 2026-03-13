@@ -12,9 +12,9 @@ const About = () => {
 
       <div className="container w-full h-full md:my-40 my-20 relative z-10">
         <TitleHeader
-          title="About Me"
+          title="About Humayun Jawad"
           number="01"
-          text="Full stack engineer focused on product quality"
+          text="Official profile, technical focus, and professional identity"
         />
         <div className="md:mt-20 mt-10">
           <div className="grid grid-cols-12 md:grid-rows-12 gap-5">
@@ -32,12 +32,12 @@ const About = () => {
                     Humayun Jawad
                   </h1>
                   <p className="md:text-2xl mt-2">
-                    Experienced full-stack developer with 6+ years of hands-on
-                    work, specializing in React.js, Next.js, and TypeScript. I
+                    Humayun Jawad is an experienced full stack developer with 6+
+                    years of hands-on work across React.js, Next.js,
+                    TypeScript, Node.js, and cloud-backed product delivery. I
                     build responsive, scalable, and production-grade web
-                    applications across client, server, and infrastructure with
-                    Node.js, Prisma, Supabase, Firebase, AWS, and CI/CD
-                    pipelines.
+                    applications with Prisma, Supabase, Firebase, AWS, and
+                    CI/CD pipelines.
                   </p>
                 </div>
               </div>
@@ -62,11 +62,11 @@ const About = () => {
               <div className="bg-black-300 rounded-2xl p-7 w-full h-full">
                 <div className="flex flex-col h-full justify-center gap-2">
                   <h1 className="gradient-title md:text-3xl text-2xl font-medium">
-                    Full Stack Development
+                    Search-Friendly Identity
                   </h1>
                   <p className="md:text-2xl max-w-96">
-                    Designing and shipping scalable web products end-to-end,
-                    from architecture and UI to APIs and deployment.
+                    Official website of Humayun Jawad with a consistent public
+                    name, portfolio, and profile links for Google and clients.
                   </p>
                 </div>
               </div>
@@ -75,27 +75,31 @@ const About = () => {
               <div className="bg-black-300 rounded-2xl p-7 w-full h-full">
                 <div className="flex flex-col h-full justify-center gap-2">
                   <h1 className="gradient-title md:text-3xl text-2xl font-medium">
-                    Systems & Integrations
+                    Core Expertise
                   </h1>
                   <p className="md:text-2xl max-w-96">
-                    API integration, cloud deployment, and maintainable
-                    full-stack architecture with reliable delivery.
+                    React, Next.js, TypeScript, Node.js, APIs, cloud deployment,
+                    and maintainable full stack architecture with reliable
+                    delivery.
                   </p>
                 </div>
               </div>
             </div>
             <div className="md:col-span-4 col-span-12 row-span-4">
               <div className="bg-black-300 rounded-2xl p-7 w-full h-full">
-                <div className="flex flex-col justify-between h-full">
-                  <h1 className="gradient-title md:text-5xl text-3xl font-bold">
-                    BUILD FAST!
+                <div className="flex flex-col justify-between h-full gap-4">
+                  <h1 className="gradient-title md:text-4xl text-3xl font-bold">
+                    Professional Snapshot
                   </h1>
-                  <h1 className="gradient-title md:text-5xl text-3xl font-bold">
-                    BUILD CLEAN!
-                  </h1>
-                  <h1 className="gradient-title md:text-5xl text-3xl font-bold">
-                    SHIP VALUE!
-                  </h1>
+                  <p className="md:text-xl">
+                    Name: Humayun Jawad
+                  </p>
+                  <p className="md:text-xl">
+                    Role: Full Stack Developer
+                  </p>
+                  <p className="md:text-xl">
+                    Base: Pakistan
+                  </p>
                 </div>
               </div>
             </div>
